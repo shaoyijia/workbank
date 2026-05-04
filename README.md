@@ -10,11 +10,9 @@
 
 **WORKBank** (AI Agent Worker Outlook and Readiness Knowledge Bank) is a database that captures worker desire and technological capability of AI agents for occupational tasks.
 
-The current version of WORKBank includes preferences from 1,500 U.S. domain workers and capability assessments from AI experts, covering over 844 tasks across 104 occupations collected between January and May 2025. This database stems from our project detailed in [Future of Work with AI Agents: Auditing Automation and Augmentation Potential across the U.S. Workforce](https://arxiv.org/abs/2506.06576) that introduces a novel auditing framework to assess which occupational tasks workers want AI agents to automate or augment, and how those desires align with the current technological capabilities.
+The current version of WORKBank includes preferences from 1,500 U.S. domain workers and capability assessments from AI experts, covering over 844 tasks across 104 occupations collected between January and May 2025.
 
 ## Database Access
-
-We host our database on Hugging Face.  All variables are documented and explained in the [Code Book](codebook.pdf).
 
 To download our database, run:
 
