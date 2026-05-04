@@ -4,13 +4,7 @@
 <h3 align="center">
 <p>Large-scale audit of worker desire and technological capability of AI agents for work
 </h3>
-<p align="center">
-| <a href="https://arxiv.org/abs/2506.06576"><b>Paper</b></a> | <a href="https://futureofwork.saltlab.stanford.edu/"><b>Website</b></a> | <a href="https://huggingface.co/datasets/SALT-NLP/WORKBank"><b>HF Dataset</b></a> |
-</p>
 <img src="assets/workbank.png" style="width: 100%; height: auto" />
-
-**Latest News** 🔥
-- [2025/07] Our project is featured by <a href="https://hai.stanford.edu/news/what-workers-really-want-from-artificial-intelligence">Stanford HAI</a> and <a href="https://www.forbes.com/sites/moinroberts-islam/2025/06/30/future-of-work-41-of-ai-startups-build-automation-workers-dont-want/">Forbes</a> - check out the coverage!
 
 ## Overview
 
@@ -47,22 +41,3 @@ You can also manually download the CSV files [here](https://huggingface.co/datas
 ## Want to Launch the Audit in Your Organization?
 
 Unlike traditional surveys, our auditing framework features an audio-enhanced interface and combines quantitative ratings with analysis of audio transcripts. This approach enables more calibrated and context-rich responses. We are also working to support input from additional modalities.
-
-**If you're interested in deploying the audit to explore the future of work within your organization, feel free to fill out [the interest form](https://forms.gle/hFGyhYkD1VwMLVj59).**
-
-
-## Citation
-
-Please cite our paper if you use WORKBank database or analysis code in your work:
-
-```
-@misc{shao2025futureworkaiagents,
-      title={Future of Work with AI Agents: Auditing Automation and Augmentation Potential across the U.S. Workforce}, 
-      author={Yijia Shao and Humishka Zope and Yucheng Jiang and Jiaxin Pei and David Nguyen and Erik Brynjolfsson and Diyi Yang},
-      year={2025},
-      eprint={2506.06576},
-      archivePrefix={arXiv},
-      primaryClass={cs.CY},
-      url={https://arxiv.org/abs/2506.06576}, 
-}
-```
