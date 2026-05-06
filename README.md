@@ -12,22 +12,6 @@
 
 The current version of WORKBank includes preferences from 1,500 U.S. domain workers and capability assessments from AI experts, covering over 844 tasks across 104 occupations collected between January and May 2025.
 
-## Database Access
-
-To download our database, run:
-
-```python
-from datasets import load_dataset
-
-
-worker_desire = load_dataset("SALT-NLP/WORKBank", data_files="worker_data/domain_worker_desires.csv")["train"]
-
-expert_ratings = load_dataset("SALT-NLP/WORKBank", data_files="expert_ratings/expert_rated_technological_capability.csv")["train"]
-
-task_meta_data = load_dataset("SALT-NLP/WORKBank", data_files="task_data/task_statement_with_metadata.csv")["train"]
-```
-
-You can also manually download the CSV files [here](https://huggingface.co/datasets/SALT-NLP/WORKBank/tree/main).
 
 ## Data Analysis Code
 
